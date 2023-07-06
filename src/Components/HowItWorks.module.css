@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.left {
+    flex: 1;
+    padding-bottom: 20rem;
+}
+
+.left button{
+    background-color: #a41770;
+    border: none;
+    color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1rem;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.heading {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #545454;
+}
+
+.paragraph {
+    font-size: 1.1rem;
+    letter-spacing: 5px;
+    font-weight: 900;
+}
+
+.right {
+    flex: 2;
+}
+
+.mobileScreens {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.smallParagraph{
+    text-align: center;
+    padding: 0;
+}
+
+.smallParagraph h1{
+    font-family: 'Oleo Script', cursive;
+}
+
+.smallParagraph h1 span{
+    color: #a41770;
+}
+
+.footerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0;
+}
+
+@media screen and (max-width: 1110px) {
+    .container{
+        flex-direction: column;
+    }
+    .mobileScreens{
+       
+        flex-direction: column;
+        
+    }
+
+    .left{
+        padding-bottom: 0;
+    }
+    /* .smallParagraph{
+        padding-bottom: auto;
+    } */
+}

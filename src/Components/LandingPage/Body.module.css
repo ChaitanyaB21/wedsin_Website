@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container h1 {
+    color: #545454;
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+.container p {
+    color: #545454;
+    text-align: center;
+    font-size: 1.25rem;
+    margin-top: -10px;
+}
+
+.container button {
+    background-color: #a41770;
+    color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    letter-spacing: 4px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #6f0f4b;
+}
+
+.logo {
+    width: 17%;
+    height: auto;
+}
+
+.mainImage {
+    margin-top: 20px;
+    width: 60%;
+    height: auto;
+}
+
+@media screen and (max-width: 1120px) {
+    .container h1{
+        font-size: 2rem;
+    }
+
+    .container p{
+        font-size: 0.75rem;
+    }
+
+    .mainImage{
+        width: 35rem;
+        height: auto;
+    }
+
+    .logo{
+        width: 10rem;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .mainImage{
+        width: 20rem;
+        height: auto;
+    }   
+}

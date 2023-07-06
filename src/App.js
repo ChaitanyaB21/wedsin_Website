@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Singles from './Components/Singles';
+import FindLove from "./Components/FindLove";
+import LandingPage from "./Components/LandingPage/LandingPage.js";
+import DiscoverTraits from "./Components/DiscoverTraits";
+import HowItWorks from "./Components/HowItWorks";
+import MatterMost from "./Components/MatterMost";
+import FamilyMatters from "./Components/FamilyMatters";
+import Privacy from "./Components/Privacy";
+import Compatibility from "./Components/Compatibility";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    return (
+        <React.Fragment>
+
+            <LandingPage />
+            <br /><br />
+            <Singles />
+            <FindLove />
+            <DiscoverTraits />
+            <HowItWorks/>
+            <MatterMost/>
+            <FamilyMatters/>
+            <Privacy/>
+            <Compatibility/>
+        </React.Fragment>
+    )
 }
 
 export default App;

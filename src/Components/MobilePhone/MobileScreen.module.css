@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .mobileScreen {
+    position: relative;
+    width: 280px;
+    height: 560px;
+    background-image: url('../../Assets/mobile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: auto;
+  }
+  
