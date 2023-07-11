@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: #545454;;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.heading {
+    font-size: 2.25rem;
+    margin-bottom: 20px;
+    letter-spacing: 12px;
+}
+
+.subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.image {
+    width: 240px;
+    height: auto;
+    margin: 10px 50px 0 50px;    
+}
+
+@media screen and (max-width:900px) {
+    .images{
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+}

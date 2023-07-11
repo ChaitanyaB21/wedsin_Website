@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a41770;
+    height: 100vh;
+}
+
+
+.left{
+    flex: 1;
+}
+
+.middle{
+    flex: 8;
+}
+
+.middle h1{
+    text-align: left;
+    font-family: 'Oleo Script', cursive;
+    color: white;
+    font-size: 3.75rem;
+    font-weight: normal;
+}
+
+@media screen and (max-width:550px) {
+    .middle h1{
+        font-size: 3rem;
+    }
+}

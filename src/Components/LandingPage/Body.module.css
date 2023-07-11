@@ -4,21 +4,25 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    padding: 20px;
+    /* padding: 10px; */
+    margin-top: 0.85rem;
+    padding-bottom: 10px;
 }
 
 .container h1 {
     color: #545454;
     text-align: center;
-    font-size: 3rem;
-
+    font-size: 2.75rem;
+    letter-spacing: 2px;
+    margin-top: 0;
 }
 
 .container p {
     color: #545454;
     text-align: center;
-    font-size: 1.25rem;
-    margin-top: -10px;
+    font-size: 1.1rem;
+    margin-top:-20px;
+    padding: 0 60px ;
 }
 
 .container button {
@@ -32,6 +36,7 @@
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    transition: 0.25s ease;
 }
 
 .container button:hover {
@@ -39,27 +44,29 @@
 }
 
 .logo {
-    width: 17%;
+    width: 15%;
     height: auto;
 }
 
 .mainImage {
     margin-top: 20px;
-    width: 60%;
+    width: 55%;
     height: auto;
 }
 
 @media screen and (max-width: 1120px) {
     .container h1{
         font-size: 2rem;
+        margin: 2px;
     }
 
     .container p{
         font-size: 0.75rem;
+        margin: 2px;
     }
 
     .mainImage{
-        width: 35rem;
+        width: 70%;
         height: auto;
     }
 
@@ -67,11 +74,39 @@
         width: 10rem;
         height: auto;
     }
+    .container button{
+        margin-top: 10px;
+    }
 }
 
-@media screen and (max-width:560px) {
+
+
+@media screen and (max-width:900px) {
     .mainImage{
-        width: 20rem;
-        height: auto;
-    }   
+        opacity: 0;
+        width: 0;
+        height: 0;
+    } 
+
+    .container h1{
+        font-size: 2rem;
+        margin: 1rem  0 1rem 0;
+    }
+
+    .container p{
+        font-size: 1rem;
+        margin: 1rem  0 1rem 0;
+    }
+
+    .logo{
+        width: 15rem;
+    }
 }
+
+/* @media screen and (max-width:464px) {
+    .mainImage{
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }    
+} */

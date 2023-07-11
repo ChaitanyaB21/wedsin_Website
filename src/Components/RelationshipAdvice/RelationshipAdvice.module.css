@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px 10px 20px;
+    color: #545454;
+}
+
+.heading {
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.carouselWrapper {
+    width: 100%;
+    max-width: 900px;
+}
+
+
+.carouselItem {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #f6e2ee;
+    border: 2px solid #aca8a8;
+    border-radius: 10px;
+    text-align: center;
+    height: auto;
+    margin:0 20px 0 20px;  
+}
+
+.image {
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    margin: 5px 40px;
+    margin-bottom: 5px;
+}
+
+.imageDiv{
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+
+.text {
+    padding-top: 5px;
+    font-size: 1rem;
+    margin: 4px 0 4px 0;
+    text-align: left;
+    font-weight: bold;
+}
+
+.subheading{
+    
+    color: #d2358a;
+    font-weight: 900;
+    text-align: left;
+    margin: 4px 0 0 0 ;
+}
+
+.author{
+    text-align: left;
+    margin: 0 0 0 0 ;
+}
+
+@media screen and (max-width:500px) {
+    .heading{
+        text-align: center;
+    }
+}

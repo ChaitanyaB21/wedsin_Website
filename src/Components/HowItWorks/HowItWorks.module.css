@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px 0 40px;
+  
+    
+}
+
+.left {
+    flex: 1;
+    padding-bottom: 20rem;
+    padding-left: 20px;
+}
+
+.left button{
+    background-color: #a41770;
+    border: none;
+    color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 0.95rem;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.left button :hover{
+    background-color: #6e0f4b;
+}
+
+.heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #545454;
+}
+
+.paragraph {
+    font-size: 1rem;
+    letter-spacing: 5px;
+    font-weight: 900;
+}
+
+.right {
+    flex: 2;
+    opacity: 1;
+}
+
+.mobileScreens {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.smallParagraph{
+    text-align: center;
+    padding: 0;
+  
+}
+
+.smallParagraph h3{
+    margin: 0;
+    font-size: 1rem;
+}
+
+.smallParagraph h1{
+    font-family: 'Oleo Script', cursive;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.smallParagraph h1 span{
+    color: #a41770;
+    margin: 0;
+}
+
+.smallParagraph p{
+    margin: 0;
+    /* font-size: 0.85rem; */
+}
+
+
+@media screen and (max-width: 1000px) {
+    
+    .mobileScreens{
+       
+        flex-direction: column;
+        margin-top: 2.5rem;
+        
+    }
+
+    .right{
+        opacity: 0;
+        width: 0;
+        height: 0;
+        flex: 0;
+    }
+
+    .left{
+        padding-bottom: 0;
+        /* padding-left: 40%; */
+    }
+
+    .smallParagraph p{
+        margin-bottom:  1rem;
+        /* font-size: 0.85rem; */
+    }
+    
+}
