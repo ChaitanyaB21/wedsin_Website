@@ -38,6 +38,8 @@ const Carousel = (props) => {
                 centerMode={false}
                 className={styles.carousel}
                 containerClass=""
+                customLeftArrow={<span/>}
+                customRightArrow={<span/>}
                 dotListClass=""
                 draggable
                 focusOnSelect={false}
@@ -45,7 +47,7 @@ const Carousel = (props) => {
                 itemClass=""
                 keyBoardControl
                 minimumTouchDrag={80}
-                
+
                 renderDotsOutside={false}
                 responsive={{
                     desktop: {

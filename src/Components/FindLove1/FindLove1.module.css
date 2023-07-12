@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     color: #545454;
-    height: 85vh;
+    height: auto;
     
 }
 
@@ -45,5 +45,18 @@
 @media screen and (max-width: 800px) {
     .container{
         flex-direction: column;
+    }
+
+    .heading{
+        text-align: center;
+    }
+
+    .subtitle{
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .left{
+        padding: 0;
     }
 }

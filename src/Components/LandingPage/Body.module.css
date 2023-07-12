@@ -82,10 +82,14 @@
 
 
 @media screen and (max-width:900px) {
+
+    .container{
+        height: auto;
+    }
+
     .mainImage{
-        opacity: 0;
-        width: 0;
-        height: 0;
+        
+        display: none;
     } 
 
     .container h1{
@@ -99,14 +103,17 @@
     }
 
     .logo{
+        margin-top: 15px;
         width: 15rem;
     }
 }
 
-/* @media screen and (max-width:464px) {
-    .mainImage{
-        opacity: 0;
-        width: 0;
-        height: 0;
-    }    
-} */
+@media screen and (max-width:464px) {
+    .container p{
+        margin: 10px 0 10px 0;
+    } 
+
+    .container p{
+        padding: 15px;
+    }
+}

@@ -52,9 +52,19 @@
     }
 }
 
+@media screen and (max-width:800px) {
+    .subtitle{
+        padding: 50px;
+    }
+}
+
 @media screen and (max-width: 550px) {
     .heading{
         font-size: 2rem;
         letter-spacing: 5px;
+    }
+
+    .subtitle{
+        padding: 20px;
     }
 }

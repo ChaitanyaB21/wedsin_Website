@@ -5,7 +5,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 40px 0 40px;
-  
+    overflow-x: hidden;
     
 }
 
@@ -86,6 +86,11 @@
 
 @media screen and (max-width: 1000px) {
     
+    .container{
+        flex-direction: row;
+        height: auto;
+    }
+
     .mobileScreens{
        
         flex-direction: column;
@@ -94,14 +99,13 @@
     }
 
     .right{
-        opacity: 0;
-        width: 0;
-        height: 0;
-        flex: 0;
+        
+        display: none;
     }
 
     .left{
         padding-bottom: 0;
+        overflow-y: 0;
         /* padding-left: 40%; */
     }
 

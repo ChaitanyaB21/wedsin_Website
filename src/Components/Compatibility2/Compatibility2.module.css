@@ -5,6 +5,7 @@
     padding: 10px 40px 0 40px;
     position: relative;
     margin-bottom: 20px;
+    overflow-x: 0;
 }
 
 .heading {
@@ -25,7 +26,7 @@
     flex-direction: row;
     align-items: center;
     /* margin-top: 20px; */
-    padding: 0 150px ;
+    padding: 0 150px  ;
 }
 
 .image {
@@ -98,6 +99,7 @@
 @media screen and (max-width:1000px) {
     .images{
         flex-direction: column;
+        padding: 0;
     }
 
     .heading{

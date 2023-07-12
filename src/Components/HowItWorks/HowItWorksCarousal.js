@@ -55,6 +55,8 @@ const HowItWorksCarousel = (props) => {
                 centerMode={false}
                 className={styles.carousel}
                 containerClass=""
+                customLeftArrow={<span/>}
+                customRightArrow={<span/>}
                 dotListClass=""
                 draggable
                 focusOnSelect={false}

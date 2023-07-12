@@ -9,7 +9,7 @@
 }
 
 .heading {
-    font-size: 2.75rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
     text-align: center;
     color: #545454;
@@ -64,9 +64,12 @@
 
 @media screen and (max-width:900px) {
     .image{
-        opacity: 0;
-        width: 0;
-        height: 0;
+        display: none;
+    }
+
+    .text{
+        padding: 0 50px 0 50px;
+        font-weight: normal;
     }
 }
 
@@ -75,5 +78,8 @@
         font-size: 2rem;
     }
 
-    
+    .text{
+        margin: 0;
+        padding: 0 15px 0 15px;
+    }
 }

@@ -12,7 +12,7 @@ import MatterMost from "./Components/MatterMost/MatterMost";
 // import HeardYou from "./Components/HeardYou/HeardYou";
 // import JustRemember from "./Components/JustRemember/JustRemember";
 import RelationshipAdvice from "./Components/RelationshipAdvice/RelationshipAdvice";
-import Footer from "./Components/Footer/Footer";
+// import Footer from "./Components/Footer/Footer";
 import FamilyMatters2 from "./Components/FamilyMatters2/FamilyMatters2";
 import Privacy2 from "./Components/Privacy2/Privacy2";
 import Compatibility2 from "./Components/Compatibility2/Compatibility2";
@@ -24,27 +24,27 @@ const App = () => {
     return (
         <React.Fragment>
             <Navbar/>
-            {/* <Carousel/> */}
-            <LandingPage />            
+            <LandingPage />         
             <MatterMost/>
             <FamilyMatters2/>
             <Privacy2/>
             <Compatibility2/>
             <Singles1/>
             <FindLove1/>
+            <HowItWorks/>
+            <JustRemember2/>
+            <RelationshipAdvice/>
+            {/* <Footer/> */}
+
+
             {/* <Singles /> */}
             {/* <FamilyMatters/> */}
             {/* <FindLove /> */}
             {/* <DiscoverTraits /> */}
-            
-            <HowItWorks/>
-            <JustRemember2/>
             {/* <Privacy/> */}
             {/* <Compatibility/> */}
             {/* <HeardYou/> */}
             {/* <JustRemember/> */}
-            <RelationshipAdvice/>
-            <Footer/>
         </React.Fragment>
     )
 }
