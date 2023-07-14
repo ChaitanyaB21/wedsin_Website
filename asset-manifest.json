@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wedsin_Website/static/css/main.ca386867.css",
-    "main.js": "/wedsin_Website/static/js/main.a3575ce2.js",
+    "main.css": "/wedsin_Website/static/css/main.962f7ecf.css",
+    "main.js": "/wedsin_Website/static/js/main.95f6647b.js",
     "static/media/remember.png": "/wedsin_Website/static/media/remember.14d3a870288f979eddc1.png",
     "static/media/mainImg.png": "/wedsin_Website/static/media/mainImg.aeda9893f14a2cd1a67f.png",
     "static/media/adviceImg1.png": "/wedsin_Website/static/media/adviceImg1.d0c99f1efbf2c44614fc.png",
@@ -29,11 +29,11 @@
     "static/media/revicons.ttf": "/wedsin_Website/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/wedsin_Website/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/wedsin_Website/index.html",
-    "main.ca386867.css.map": "/wedsin_Website/static/css/main.ca386867.css.map",
-    "main.a3575ce2.js.map": "/wedsin_Website/static/js/main.a3575ce2.js.map"
+    "main.962f7ecf.css.map": "/wedsin_Website/static/css/main.962f7ecf.css.map",
+    "main.95f6647b.js.map": "/wedsin_Website/static/js/main.95f6647b.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca386867.css",
-    "static/js/main.a3575ce2.js"
+    "static/css/main.962f7ecf.css",
+    "static/js/main.95f6647b.js"
   ]
 }
