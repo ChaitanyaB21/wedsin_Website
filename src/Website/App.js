@@ -19,6 +19,7 @@ import Compatibility2 from "./Components/Compatibility2/Compatibility2";
 import Singles1 from "./Components/Singles1/Singles1";
 import FindLove1 from "./Components/FindLove1/FindLove1";
 import JustRemember2 from "./Components/JustRemember2/JustRemember2";
+import Footer1 from "./Components/Footer1/Footer1";
 
 const App = () => {
     return (
@@ -34,9 +35,8 @@ const App = () => {
             <HowItWorks/>
             <JustRemember2/>
             <RelationshipAdvice/>
+            <Footer1/>
             {/* <Footer/> */}
-
-
             {/* <Singles /> */}
             {/* <FamilyMatters/> */}
             {/* <FindLove /> */}

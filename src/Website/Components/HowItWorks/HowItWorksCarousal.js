@@ -80,7 +80,7 @@ const HowItWorksCarousel = (props) => {
                         items: 1,
                     },
                 }}
-                showDots
+                showDots={false}
                 sliderClass=""
                 slidesToSlide={1}
                 swipeable
