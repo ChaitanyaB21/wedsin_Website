@@ -1,0 +1,28 @@
+.links {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #a41770;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+
+@media screen and (max-width: 600px) {
+    .links {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .links a {
+        flex-basis: 50%;
+        text-align: center;
+        padding: 10px;
+    }
+}

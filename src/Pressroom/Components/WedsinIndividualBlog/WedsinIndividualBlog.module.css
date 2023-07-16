@@ -1,0 +1,27 @@
+.blogContainer {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .metadata {
+    margin-bottom: 1rem;
+  }
+  
+  .author,
+  .date {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .body {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  

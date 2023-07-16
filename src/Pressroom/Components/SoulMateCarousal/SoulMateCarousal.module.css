@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
+
+.carouselWrapper {
+    width: 100%;
+    height: auto;
+    padding-top: 5rem;
+}
+
+
+.carouselItem {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    height: auto;
+    margin: 0 20px 0 20px;
+}
+
+.image {
+    width: 500px;
+    height: auto;
+    max-width: 300px;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.carouselItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageDiv {
+    flex: 0 0 30%;
+
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.textDiv {
+    flex: 0 0 30%;
+    padding-left: 1rem;
+    /* Add padding to create space between the image and text */
+}
+
+.textDiv h1{
+    font-family: 'Oleo Script', cursive;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    letter-spacing: 2px;
+}
+
+.textDiv p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    letter-spacing: 2px;
+}
+
+button {
+    margin-top: 1rem;
+    background-color: #a41770;
+    border: none;
+    color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 0.95rem;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+
+/* @media screen and (max-width:900px) {
+    .carouselWrapper{
+        width: 100%;
+        height: auto;
+        opacity: 1;
+    }
+
+    
+}    */
+
+@media screen and (max-width:950px) {
+    .carouselItem{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .textDiv h1{
+        font-size: 1.75rem;
+    }
+
+    .textDiv p{
+        font-size: 1rem;
+    }
+}

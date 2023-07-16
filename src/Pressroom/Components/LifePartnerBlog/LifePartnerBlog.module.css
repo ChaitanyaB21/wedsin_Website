@@ -1,0 +1,48 @@
+.blogContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .blogItem {
+    width: 40%;
+    margin: 30px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .blogImage {
+    width: 70%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .blogTitle {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .blogParagraph {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  @media screen and (max-width: 950px) {
+    .blogItem {
+      width: 80%; 
+      margin: 20px; 
+    }
+  
+    .blogImage {
+      width: 100%; 
+    }
+  }
+  

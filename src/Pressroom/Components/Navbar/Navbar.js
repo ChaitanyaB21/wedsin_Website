@@ -11,13 +11,18 @@ const Navbar = () => {
           </a>
         </li>
         <li className={styles.navItem}>
-          <a href="#RelationShipAdvice" className={styles.navLink}>
-            Blogs
+          <a href="#" className={styles.navLink}>
+            Login
           </a>
         </li>
         <li className={styles.navItem}>
           <a href="#" className={styles.navLink}>
             E-Quiz
+          </a>
+        </li>
+        <li className={styles.navItem}>
+          <a href="#" className={styles.navLink}>
+            Contact us
           </a>
         </li>
       </ul>
