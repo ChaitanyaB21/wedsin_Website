@@ -1,7 +1,11 @@
 {
   "files": {
-    "main.css": "/wedsin_Website/static/css/main.962f7ecf.css",
-    "main.js": "/wedsin_Website/static/js/main.95f6647b.js",
+    "main.css": "/wedsin_Website/static/css/main.6ffae4ac.css",
+    "main.js": "/wedsin_Website/static/js/main.8f5a3495.js",
+    "static/media/indianCouple.png": "/wedsin_Website/static/media/indianCouple.a50aa8df9863a0eaea74.png",
+    "static/media/soulMate3.png": "/wedsin_Website/static/media/soulMate3.834eebff6c2a073a2a1c.png",
+    "static/media/soulMate2.png": "/wedsin_Website/static/media/soulMate2.596927cee9bc97938df1.png",
+    "static/media/soulMate1.png": "/wedsin_Website/static/media/soulMate1.3a560555152c16dc21f7.png",
     "static/media/remember.png": "/wedsin_Website/static/media/remember.14d3a870288f979eddc1.png",
     "static/media/mainImg.png": "/wedsin_Website/static/media/mainImg.aeda9893f14a2cd1a67f.png",
     "static/media/adviceImg1.png": "/wedsin_Website/static/media/adviceImg1.d0c99f1efbf2c44614fc.png",
@@ -29,11 +33,11 @@
     "static/media/revicons.ttf": "/wedsin_Website/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/wedsin_Website/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/wedsin_Website/index.html",
-    "main.962f7ecf.css.map": "/wedsin_Website/static/css/main.962f7ecf.css.map",
-    "main.95f6647b.js.map": "/wedsin_Website/static/js/main.95f6647b.js.map"
+    "main.6ffae4ac.css.map": "/wedsin_Website/static/css/main.6ffae4ac.css.map",
+    "main.8f5a3495.js.map": "/wedsin_Website/static/js/main.8f5a3495.js.map"
   },
   "entrypoints": [
-    "static/css/main.962f7ecf.css",
-    "static/js/main.95f6647b.js"
+    "static/css/main.6ffae4ac.css",
+    "static/js/main.8f5a3495.js"
   ]
 }
