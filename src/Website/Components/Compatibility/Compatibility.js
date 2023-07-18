@@ -17,7 +17,7 @@ const Compatibility = () => {
 
     return (
         <div className={styles.container}>
-            <h1 className={styles.heading}>UNDERSTANDING COMPATIBILITY   MATTERS !</h1>
+            <h1 className={styles.heading}>Understanding Compatibility matters!</h1>
             <h3 className={styles.subtitle}>Astro v/s Modern Compatibility</h3>
             <div className={styles.images}>
                 <img className={styles.image} src={image1} alt="Image 1" />

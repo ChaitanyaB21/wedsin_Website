@@ -28,6 +28,11 @@
     margin-bottom: 5px;
 }
 
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
 .carouselItem {
     display: flex;
     justify-content: center;
@@ -39,10 +44,7 @@
 
 }
 
-.image {
-    max-width: 100%;
-    height: auto;
-}
+
 
 .textDiv {
     flex: 0 0 30%;
@@ -63,19 +65,23 @@
     letter-spacing: 2px;
 }
 
-button {
-    margin-top: 1rem;
+.textDiv button {
     background-color: #a41770;
-    border: none;
     color: white;
     padding-right: 15px;
     padding-left: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-size: 0.95rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    letter-spacing: 4px;
+    border: none;
     border-radius: 20px;
-    letter-spacing: 2px;
-    font-weight: 100;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.textDiv button:hover{
+    background-color: #6f0f4b;
 }
 
 

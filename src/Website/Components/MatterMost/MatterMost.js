@@ -5,10 +5,11 @@ const MatterMost = () => {
     return (
         <React.Fragment>
             <div className={styles.container}>
-                <h1 className={styles.heading}>YOU MATTER MOST !</h1>
-                <p className={styles.important} >You are important!</p>
+                <h1 className={styles.heading}>You matter most !</h1>
+                <p className={styles.important} >Our principle is straightforward:
+                    To help you reestablish that youR needs are important</p>
                 <p className={styles.paragraph}>
-                    Our principle is straightforward: gaining a deeper understanding of oneself helps to create healthier and happier relationships. Drawing upon ancient religious scriptures and scientific data, we offer meaningful insights to accompany you on this transformative journey.
+                    Gaining a deeper understanding of oneself helps to create healthier and happier relationships and we are here for you on this transformative journey.
                 </p>
                 <div className={styles.row}>
                     <div className={styles.item}>
@@ -33,7 +34,7 @@ const MatterMost = () => {
                     <Footer/>
                 </div> */}
             </div>
-            
+
         </React.Fragment>
     );
 };

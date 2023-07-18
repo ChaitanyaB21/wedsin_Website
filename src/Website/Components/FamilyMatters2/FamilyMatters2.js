@@ -5,10 +5,10 @@ import image from '../../Assets/familyMattersImg.png';
 const FamilyMatters2 = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.heading}>UNDERSTANDING FAMILY MATTERS!</h1>
+      <h1 className={styles.heading}>Understanding family matters!</h1>
       <div className={styles.content}>
         <img src={image} alt="Family" className={styles.image} />
-        <h3 className={styles.subtitle}>Unlike apps that solely prioritize individual preferences, WedsIn recognizes the significance of family & friends in your life. We consider the input of both the couple and their families, ensuring a balanced approach that respects everyone's needs and values.</h3>
+        <h3 className={styles.subtitle}>We recognize the significance of family & friends in your life giving you an option to get their recommendations for choosing matches</h3>
       </div>
     </div>
   );

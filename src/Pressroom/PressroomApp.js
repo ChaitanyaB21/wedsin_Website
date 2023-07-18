@@ -4,6 +4,8 @@ import WedsinBlogs from "./Components/WedsinBlogs/WedsinBlogs";
 import SoulMateCarousel from "./Components/SoulMateCarousal/SoulMateCarousal";
 import Footer from "./Components/Footer/Footer";
 import LifePartnerBlog from "./Components/LifePartnerBlog/LifePartnerBlog";
+import Explore from "./Components/Explore/Explore";
+// import FollowUs from "./Components/FollowUs/FollowUs";
 
 const PressroomApp = () => {
     return(
@@ -11,8 +13,9 @@ const PressroomApp = () => {
             <Navbar/>
             <WedsinBlogs/>
             <SoulMateCarousel/>
+            <Explore/>
             <LifePartnerBlog/>
-
+            {/* <FollowUs/> */}
 
             <Footer/>
         </>

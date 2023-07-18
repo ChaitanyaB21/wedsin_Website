@@ -3,8 +3,14 @@
     justify-content: center;
     align-items: center;
     color: #545454;
-    height: auto;
-    
+    height: 90vh;
+
+}
+
+.headingDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .left {
@@ -43,20 +49,24 @@
 }
 
 @media screen and (max-width: 800px) {
-    .container{
+    .container {
+        height: auto;
+    }
+
+    .container {
         flex-direction: column;
     }
 
-    .heading{
+    .heading {
         text-align: center;
     }
 
-    .subtitle{
+    .subtitle {
         padding: 1rem;
         text-align: center;
     }
 
-    .left{
+    .left {
         padding: 0;
     }
 }

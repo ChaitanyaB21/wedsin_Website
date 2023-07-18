@@ -1,5 +1,5 @@
 .container {
-    height: auto;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,9 +10,9 @@
 }
 
 .heading {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     margin-top: 0;
-    letter-spacing: 15px;
+    letter-spacing: 2px;
 }
 
 .paragraph {
@@ -73,6 +73,10 @@
 @media screen and (max-width: 1150px) {
     .row {
         flex-direction: column;
+    }
+
+    .container{
+        height: auto;
     }
 
     .item {

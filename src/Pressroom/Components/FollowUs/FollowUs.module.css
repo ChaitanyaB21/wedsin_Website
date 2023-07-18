@@ -1,0 +1,35 @@
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #a41770;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #6f0f4b;
+}

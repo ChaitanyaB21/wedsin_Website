@@ -1,4 +1,5 @@
 .container {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,9 +11,9 @@
 }
 
 .heading {
-    font-size: 2.25rem;
+    font-size: 2.75rem;
     margin-bottom: 20px;
-    letter-spacing: 12px;
+    letter-spacing: 2px;
 }
 
 .subtitle {
@@ -36,6 +37,10 @@
 }
 
 @media screen and (max-width:900px) {
+    .container{
+        height: auto;
+    }
+
     .images{
         display: none;
     }

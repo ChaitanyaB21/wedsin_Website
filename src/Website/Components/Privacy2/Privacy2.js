@@ -8,7 +8,7 @@ import Carousel from '../Carousal/Carousal';
 const Privacy2 = () => {
     return (
         <div className={styles.container}>
-            <h1 className={styles.heading}>YOUR PRIVACY AND SAFETY MATTERS !</h1>
+            <h1 className={styles.heading}>Your privacy and safety matters!</h1>
             <h2 className={styles.subtitle}>We prioritize your security and verify potential matches with utmost care as if we were checking for our family.</h2>
             <div className={styles.images}>
                 <img src={Image1} alt="Image 1" className={styles.image} />

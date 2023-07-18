@@ -2,10 +2,12 @@ import React from 'react';
 import styles from './Body.module.css';
 import logoImage from '../../Assets/logoImg.png';
 import mainImage from '../../Assets/mainImg.png';
+// import mainImage from '../../Assets/mainImg.svg'
 import Carousel from '../Carousal/Carousal';
 import image1 from "../../Assets/carousal1.png";
 import image2 from "../../Assets/carousal2.png";
 import image3 from "../../Assets/carousal3.png";
+// import image4 from "../../Assets/carousel4.png"
 
 const Body = () => {
     return (

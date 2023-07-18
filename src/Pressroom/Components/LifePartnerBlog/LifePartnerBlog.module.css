@@ -3,46 +3,66 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-  }
-  
-  .blogItem {
+    padding: 20px;
+}
+
+.blogItem {
     width: 40%;
-    margin: 30px;
+    margin: 20px;
     border-radius: 5px;
     text-align: center;
-  }
-  
-  .blogImage {
-    width: 70%;
+}
+
+.blogImage {
+    width: 350px;
     height: auto;
     border-radius: 5px;
-  }
-  
-  .blogTitle {
+}
+
+/* .textDiv{
+    margin-left : 13%;
+    width: 350px;
+} */
+
+.blogTitle {
     font-size: 1.2rem;
     margin-top: 10px;
     margin-bottom: 5px;
     text-align: left;
-  }
-  
-  .blogParagraph {
+}
+
+.blogParagraph {
     font-size: 1rem;
     line-height: 1.5;
     text-align: left;
-  }
-  
-  .hidden {
-    display: none;
-  }
-  
-  @media screen and (max-width: 950px) {
+}
+
+.btn {
+    background-color: #a41770;
+    color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.btn:hover {
+    background-color: #6f0f4b;
+}
+
+@media screen and (max-width: 950px) {
     .blogItem {
-      width: 80%; 
-      margin: 20px; 
+        width: 80%;
+        margin: 20px;
     }
-  
+
     .blogImage {
-      width: 100%; 
+        width: 100%;
     }
-  }
-  
+}

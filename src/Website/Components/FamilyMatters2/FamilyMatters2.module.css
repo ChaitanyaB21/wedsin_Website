@@ -4,12 +4,13 @@
     align-items: center;
     padding: 40px;
     color: #545454;
+    height: 100vh;
 }
 
 .heading {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     margin-bottom: 20px;
-    letter-spacing: 15px;
+    letter-spacing: 2px;
     text-align: center;
 }
 
@@ -34,6 +35,11 @@
 }
 
 @media screen and (max-width:1000px) {
+
+    .container{
+        height: auto;
+    }
+
     .content{
         flex-direction: column;
     }

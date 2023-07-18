@@ -6,19 +6,10 @@ import image2 from "../../Assets/compatibility2.png";
 
 
 const Compatibility2 = () => {
-    const [showModal, setShowModal] = useState(false);
-
-    const handleLearnMoreClick = () => {
-        setShowModal(true);
-    };
-
-    const handleCloseModal = () => {
-        setShowModal(false);
-    };
 
     return (
         <div className={styles.container}>
-            <h1 className={styles.heading}>UNDERSTANDING COMPATIBILITY   MATTERS !</h1>
+            <h1 className={styles.heading}>Understanding Compatibility matters!</h1>
             <h3 className={styles.subtitle}>Astro v/s Modern Compatibility</h3>
             <div className={styles.images}>
                 {/* <img className={styles.image} src={image1} alt="Image 1" /> */}
@@ -28,7 +19,7 @@ const Compatibility2 = () => {
                     <br />
                     <br />
                     Our compatibility analysis draws its roots   from the Vedic scriptures for Astro  compatibility and 36 questions that lead to   love issued by 'NY times' for modern  compatibility....
-                    <button className={styles.learnMore} onClick={handleLearnMoreClick}>Learn more.</button>
+                    <button className={styles.learnMore}>Learn more.</button>
 
 
                     Take your assessment now!
@@ -37,22 +28,8 @@ const Compatibility2 = () => {
                 {/* <img className={styles.image} src={image2} alt="Image 2" /> */}
                 <MobileScreen imageSource={image2} />
             </div>
-            <button className={styles.buttonStart}>Start</button>
+            <button className={styles.buttonStart}>Start Now</button>
 
-
-
-            {showModal && (
-                <div className={styles.modal}>
-                    <div className={styles.modalContent}>
-                        <p className={styles.modalParagraph}>
-                            This is the modal content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel purus id dolor vulputate euismod. Ut ullamcorper tellus non risus accumsan tristique.
-                        </p>
-                        <button className={styles.closeButton} onClick={handleCloseModal}>
-                            Close
-                        </button>
-                    </div>
-                </div>
-            )}
         </div>
     );
 };

@@ -1,0 +1,18 @@
+.container{
+    padding-left: 80px;
+    padding-top: 15%;
+    height: 60vh;
+}
+
+.container h1 {
+    font-size: 1.75rem;
+    color: #850953;
+    letter-spacing: 1.5px;
+    font-weight: normal;
+}
+
+.container span{
+    font-size: 1.25rem;
+    color: #545454;
+    cursor: pointer;
+}

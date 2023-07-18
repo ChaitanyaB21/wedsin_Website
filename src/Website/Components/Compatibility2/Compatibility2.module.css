@@ -9,11 +9,11 @@
 }
 
 .heading {
-    font-size: 2.25rem;
+    font-size: 2.75rem;
     margin-bottom: 20px;
     text-align: center;
     color: #545454;
-    letter-spacing: 15px;
+    letter-spacing: 2px;
 }
 
 .subtitle {
@@ -50,50 +50,22 @@
 }
 
 .buttonStart {
-    background-color: #d00074;
-    border: none;
-    color: white;
-    padding: 10px 60px;
-    border-radius: 30px;
-    font-size: 1.25rem;
-    cursor: pointer;
-    transition: 0.25 ease;
-}
-
-.footer{
-    padding-top: 20px;
-}
-
-.modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.modalContent {
-    background-color: white;
-    padding: 20px;
-    margin: 30px;
-    border-radius: 10px;
-}
-
-.modalParagraph {
-    margin-bottom: 20px;
-}
-
-.closeButton {
     background-color: #a41770;
     color: white;
-    padding: 8px 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    letter-spacing: 4px;
     border: none;
     border-radius: 20px;
+    margin-bottom: 25px;
     cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.buttonStart:hover{
+    background-color: #6f0f4b;
 }
 
 @media screen and (max-width:1000px) {
