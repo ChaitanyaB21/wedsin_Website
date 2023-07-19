@@ -12,10 +12,7 @@ const HowItWorks = () => {
         <div className={styles.container}>
             <div className={styles.left}>
                 <h1 className={styles.heading}>How does It Works ?</h1>
-                <p className={styles.paragraph}>
-                    FOR SINGLES
-                </p>
-                <button>Join Now</button>
+                {/* <button>Join Now</button> */}
             </div>
             <div className={styles.right}>
                 <div className={styles.mobileScreens}>
@@ -24,7 +21,7 @@ const HowItWorks = () => {
                         <div className={styles.smallParagraph}>
                             <h3>Step 1</h3>
                             <h1>Sign <span>In</span></h1>
-                            <p>Fill information & get curated personality analysis report</p>
+                            <p>Fill information & get curated<br/> personality analysis report</p>
                         </div>
                     </div>
                     <div className={styles.mobileScreenWrapper}>
@@ -32,7 +29,7 @@ const HowItWorks = () => {
                         <div className={styles.smallParagraph}>
                             <h3>Step 2</h3>
                             <h1>Quiz <span>In</span></h1>
-                            <p>See snapshot of astrological and modern compatibility.</p>
+                            <p>See snapshot of astrological<br/> and modern compatibility.</p>
                         </div>
                     </div>
                     <div className={styles.mobileScreenWrapper}>
@@ -40,7 +37,7 @@ const HowItWorks = () => {
                         <div className={styles.smallParagraph}>
                             <h3>Step 3</h3>
                             <h1>Match <span>In</span></h1>
-                            <p>Match, date, and get married to live dream life</p>
+                            <p>Match, date, and get<br/> married to live dream life</p>
                         </div>
                     </div>
                 </div>

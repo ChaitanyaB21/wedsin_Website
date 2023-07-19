@@ -15,12 +15,14 @@
     color: #545454;
     letter-spacing: 2px;
     padding-top: 10px;
+    font-weight: normal;
 }
 
 .text {
     padding: 0 150px 0 150px;
     text-align: center;
     margin-top: 0;
+    font-weight: normal;
 }
 
 .image {

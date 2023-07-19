@@ -14,15 +14,10 @@
 }
 
 .blogImage {
-    width: 350px;
+    width: 480px;
     height: auto;
     border-radius: 5px;
 }
-
-/* .textDiv{
-    margin-left : 13%;
-    width: 350px;
-} */
 
 .blogTitle {
     font-size: 1.2rem;

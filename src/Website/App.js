@@ -17,9 +17,11 @@ import FamilyMatters2 from "./Components/FamilyMatters2/FamilyMatters2";
 import Privacy2 from "./Components/Privacy2/Privacy2";
 import Compatibility2 from "./Components/Compatibility2/Compatibility2";
 import Singles1 from "./Components/Singles1/Singles1";
-import FindLove1 from "./Components/FindLove1/FindLove1";
-import JustRemember2 from "./Components/JustRemember2/JustRemember2";
+// import FindLove1 from "./Components/FindLove1/FindLove1";
+// import JustRemember2 from "./Components/JustRemember2/JustRemember2";
 import Footer1 from "./Components/Footer1/Footer1";
+import FindLove2 from "./Components/FindLove2/FindLove2";
+import DiscoverTraits2 from "./Components/DiscoverTraits2/DiscoverTraits2";
 
 const App = () => {
     return (
@@ -31,9 +33,11 @@ const App = () => {
             <Privacy2/>
             <Compatibility2/>
             <Singles1/>
-            <FindLove1/>
+            <DiscoverTraits2/>
+            {/* <FindLove1/> */}
+            {<FindLove2/>}
             <HowItWorks/>
-            <JustRemember2/>
+            {/* <JustRemember2/> */}
             <RelationshipAdvice/>
             <Footer1/>
             {/* <Footer/> */}
