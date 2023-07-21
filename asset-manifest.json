@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wedsin_Website/static/css/main.6f6b8ccf.css",
-    "main.js": "/wedsin_Website/static/js/main.f883315f.js",
+    "main.js": "/wedsin_Website/static/js/main.d2193fa2.js",
     "static/media/Blog5Img.png": "/wedsin_Website/static/media/Blog5Img.574fac9bbcb4063c0c75.png",
     "static/media/Blog6Img.png": "/wedsin_Website/static/media/Blog6Img.b537a7db8811cb722154.png",
     "static/media/mainImg1.png": "/wedsin_Website/static/media/mainImg1.ca73a1ee0f58b618e25a.png",
@@ -34,10 +34,10 @@
     "static/media/revicons.woff": "/wedsin_Website/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/wedsin_Website/index.html",
     "main.6f6b8ccf.css.map": "/wedsin_Website/static/css/main.6f6b8ccf.css.map",
-    "main.f883315f.js.map": "/wedsin_Website/static/js/main.f883315f.js.map"
+    "main.d2193fa2.js.map": "/wedsin_Website/static/js/main.d2193fa2.js.map"
   },
   "entrypoints": [
     "static/css/main.6f6b8ccf.css",
-    "static/js/main.f883315f.js"
+    "static/js/main.d2193fa2.js"
   ]
 }
