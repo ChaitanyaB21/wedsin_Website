@@ -7,7 +7,7 @@ import blogData from '../BlogData';
 const WedsinIndividualBlog = () => {
     const params = useParams();
     const reqBlogId = params.individualBlogId;
-    const data = blogData.find((ele) => ele.id === reqBlogId)
+    const data = blogData.find((ele) => ele.id == reqBlogId)
     return (
         <div className={styles.blogContainer}>
             <h1 className={styles.heading}>{data.title}</h1>
