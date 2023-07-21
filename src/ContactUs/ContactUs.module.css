@@ -1,0 +1,146 @@
+/* WedsInApp.module.css */
+
+/* Custom styles for WedsInApp component */
+.bg {
+    margin-top: 90px;
+    background-image: url("./Img.png");
+    background-size: contain;
+    height: 55vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+    color: #545454;
+}
+
+.c1 {
+    margin-top: 25px;
+    font-size: 2.75rem;
+}
+
+.c2 {
+    font-size: 20px;
+}
+
+.page {
+    height: 100vh;
+}
+
+.last {
+    height: fit-content;
+}
+
+.content2 {
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.space {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    margin: 15px;
+}
+
+.footer {
+    height: fit-content;
+    background-color: #850953;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer-text {
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+}
+
+.footer-link {
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.custom-button {
+    font-size: 30px;
+    padding: 15px 30px;
+}
+
+.navbar {
+    background-color: #fff;
+    overflow: hidden;
+    margin-right: 10px;
+    display: flex;
+}
+
+.navbar a {
+    float: right;
+    padding: 10px 40px;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 15px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: #000;
+}
+
+.navbar a {
+    border-radius: 20px;
+}
+
+.navbar img:hover {
+    background-color: white;
+}
+
+.navbar-brand {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-toggler {
+    position: fixed;
+    left: auto;
+    right: 20px;
+    top: 55px;
+    padding: 10px 15px;
+    size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar a {
+        font-size: 40px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+    }
+}

@@ -5,6 +5,7 @@
     text-align: center;
     color: #545454;
     height: auto;
+    overflow-x: hidden;
 }
 
 .container h1 {
@@ -16,7 +17,7 @@
     font-weight: normal;
 }
 
-img {
+.container img {
     display: block;
     width: 400px;
     height: auto;
@@ -46,4 +47,16 @@ img {
 
 .buttonStart:hover {
     background-color: #6f0f4b;
+}
+
+@media screen and (max-width:1000px) {
+    .container h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .container img{
+        width: 300px;
+    }
 }

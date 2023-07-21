@@ -1,0 +1,61 @@
+/* WedsInApp.module.css */
+
+/* Reset default styles */
+/* body,
+html {
+    font-family: 'Gilroy-Light', sans-serif;
+    color: #545454;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow-x: hidden;
+} */
+
+/* Custom styles for WedsInApp component */
+.app {
+    margin: 70px 30px 50px;
+    color: #545454;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.faq {
+    margin-bottom: 20px;
+}
+
+.question {
+    text-align: left;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ececec;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    color: black;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.question:hover {
+    background-color: #d4d4d4;
+}
+
+.answer {
+    font-size: 1.5rem;
+    text-align: left;
+    display: none;
+    margin-left: 0;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.showAnswer {
+    display: block;
+}

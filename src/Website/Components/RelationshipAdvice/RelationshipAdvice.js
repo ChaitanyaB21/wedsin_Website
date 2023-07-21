@@ -5,6 +5,7 @@ import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import image1 from '../../Assets/adviceImg1.png';
 import image2 from '../../Assets/adviceImg2.png';
+import blogData from '../../../Pressroom/Components/BlogData';
 
 const RelationshipAdvice = () => {
   const carouselItems = [

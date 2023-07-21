@@ -5,7 +5,7 @@
     padding: 10px 40px 0 40px;
     position: relative;
     margin-bottom: 20px;
-    overflow-x: 0;
+    overflow-x: hidden; /* Set overflow-x to 'hidden' to prevent horizontal scrolling */
 }
 
 .heading {
@@ -14,6 +14,7 @@
     text-align: center;
     color: #545454;
     letter-spacing: 2px;
+    font-weight: normal;
 }
 
 .subtitle {
@@ -25,8 +26,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* margin-top: 20px; */
-    padding: 0 150px  ;
+    padding: 0 150px;
 }
 
 .image {
@@ -64,32 +64,38 @@
     transition: 0.25s ease;
 }
 
-.buttonStart:hover{
+.buttonStart:hover {
     background-color: #6f0f4b;
 }
 
-@media screen and (max-width:1000px) {
-    .images{
-        flex-direction: column;
-        padding: 0;
+/* Apply styles for screens with a width less than or equal to 1000px */
+@media screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column; /* Change flex-direction to 'column' */
     }
 
-    .heading{
+    .images {
+        padding: 0; /* Remove padding to avoid horizontal space */
+    }
+
+    .image {
+        width: 100%; /* Make the image full width */
+        max-width: 300px; /* Set a max-width for the image */
+    }
+
+    .heading {
         font-size: 2rem;
     }
 }
 
-@media screen and (max-width:550px){
-    .heading{
+/* Apply styles for screens with a width less than or equal to 550px */
+@media screen and (max-width: 550px) {
+    .heading {
         font-size: 1.75rem;
         letter-spacing: 7px;
     }
 
-    .subtitle{
+    .subtitle {
         font-size: 1.35rem;
-    }
-
-    .image{
-        width: 100%;
     }
 }

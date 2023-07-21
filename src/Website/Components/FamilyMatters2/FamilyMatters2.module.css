@@ -1,43 +1,51 @@
 .container {
+    height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    padding: 40px;
+    justify-content: center;
+    background-color: white;
     color: #545454;
-    height: 90vh;
+    text-align: center;
+    height: auto;
+    overflow-x: hidden;
+}
+
+.main {
+    text-align: center;
+    color: #545454;
+}
+
+.text {
+    /* width: 30px; */
+    flex: 0.5;
 }
 
 .heading {
     font-size: 2.75rem;
     margin-bottom: 20px;
     letter-spacing: 2px;
-    text-align: center;
     font-weight: normal;
 }
 
-.content {
+.subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.images {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .image {
     width: 400px;
     height: auto;
-    padding-left: 10px;
-    margin-right: 20px;
-}
-
-.subtitle {
-    font-size: 1.25rem;
-    margin-bottom: 0;
-    padding: 100px;
-    text-align: center;
-    font-weight: normal;
-}
-
-.text{
-    text-align: center;
+    margin: 10px 50px 0 50px;
 }
 
 .buttonStart {
@@ -63,6 +71,7 @@
 
     .container {
         height: auto;
+        flex-direction: column;
     }
 
     .content {
@@ -78,7 +87,7 @@
     }
 
     .subtitle {
-        font-size: 1rem;
+        font-size: 1.2rem;
 
     }
 }

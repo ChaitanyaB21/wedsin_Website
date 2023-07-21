@@ -1,0 +1,78 @@
+/* WedsInApp.module.css */
+
+/* Reset default styles */
+/* body, html {
+    font-family: 'Gilroy-Light', sans-serif;
+    color: #545454;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow-x: hidden;
+} */
+
+.wrapper{
+    margin-top: 80px;
+    overflow-x: hidden;
+    color: #545454;
+}
+
+.bg {
+    background-image: url("./Img.png");
+    background-size: contain;
+    height: 50vh;
+    width: 75vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    animation: spin 10s infinite linear;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Custom styles for WedsInApp component */
+.badacontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    overflow-x: hidden; /* Fix overflow-x */
+}
+
+.container {
+    margin: 75px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75vw;
+}
+
+.ques {
+    font-size: 2.75rem;
+    /* font-family: 'oleo-script-regular', sans-serif; */
+    color: #850953;
+}
+
+.ans {
+    font-size: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .ques {
+        font-size: xx-large;
+    }
+
+    .ans {
+        font-size: medium;
+        text-align: justify;
+    }
+}

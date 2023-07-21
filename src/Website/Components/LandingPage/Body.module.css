@@ -7,6 +7,7 @@
     /* padding: 10px; */
     margin-top: 0.85rem;
     padding-bottom: 10px;
+    overflow-x: hidden;
 }
 
 .container h1 {
@@ -14,15 +15,18 @@
     text-align: center;
     font-size: 2.75rem;
     letter-spacing: 2px;
-    margin-top: 0;
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: normal;
 }
 
 .container p {
     color: #545454;
     text-align: center;
-    font-size: 1.1rem;
-    margin-top:-20px;
+    font-size: 1.25rem;
+    /* margin-top:-20px; */
     padding: 0 60px ;
+    margin: 0 0 15px 0;
 }
 
 .container button {
@@ -55,6 +59,11 @@
 }
 
 @media screen and (max-width: 1120px) {
+
+    .container{
+        margin-top: 60px;
+    }
+
     .container h1{
         font-size: 2rem;
         margin: 2px;

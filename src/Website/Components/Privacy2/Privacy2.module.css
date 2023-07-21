@@ -1,8 +1,9 @@
 .container {
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
     background-color: white;
     color: #545454;;
     text-align: center;
@@ -10,10 +11,21 @@
     overflow-x: hidden;
 }
 
+.main{
+    text-align: center;
+    color: #545454;
+}
+
+.text{
+    /* width: 30px; */
+    flex: 0.5;
+}
+
 .heading {
     font-size: 2.75rem;
     margin-bottom: 20px;
     letter-spacing: 2px;
+    font-weight: normal;
 }
 
 .subtitle {
@@ -36,13 +48,15 @@
     margin: 10px 50px 0 50px;    
 }
 
+@media screen and (max-width:1000px) {
+    .container{
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width:900px) {
     .container{
         height: auto;
-    }
-
-    .images{
-        display: none;
     }
 
     .heading{

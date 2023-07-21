@@ -1,0 +1,60 @@
+.carouselWrapper {
+    width: 100%;
+    max-width: 400px;
+    opacity: 1;
+}
+
+
+.carouselItem {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    /* background-color: #f6e2ee;
+    border: 2px solid #aca8a8; */
+    border-radius: 10px;
+    text-align: center;
+    height: auto;
+    margin: 0 20px 0 20px;
+}
+
+/* .image {
+    width: 500px;
+    height: auto;
+    max-width: 300px;
+    height: auto;
+    margin: 5px 40px;
+    margin-bottom: 5px;
+} */
+
+/* .smallParagraph{
+    text-align: center;
+    padding: 0;
+} */
+
+/* .smallParagraph h3{
+    margin: 0;
+    font-size: 1rem;
+} */
+
+/* .smallParagraph h1{
+    font-family: 'Oleo Script', cursive;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.smallParagraph h1 span{
+    color: #a41770;
+    margin: 0;
+}
+
+.smallParagraph p{
+    margin: 0;
+    font-size: 0.85rem;
+} */
+
+@media screen and (max-width:1000px) {
+    .carouselWrapper{
+        width: 100%;
+        height: auto;
+    }
+}   

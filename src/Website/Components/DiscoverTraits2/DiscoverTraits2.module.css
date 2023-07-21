@@ -4,6 +4,7 @@
     padding: 20px;
     color: #545454;
     background-color: #ffedf8;
+    overflow-x: hidden;
 }
 
 .container h1 {
@@ -23,7 +24,7 @@
     margin-bottom: 10px;
 }
 
-button {
+.container button {
     padding: 10px 20px;
     font-size: 16px;
     border: 2px solid #ccc;
@@ -34,8 +35,6 @@ button {
     margin: 0 5px;
 }
 
-
-
 .subheading {
     font-size: 2.75rem;
     font-weight: bold;
@@ -43,4 +42,31 @@ button {
     margin-top: 30px;
     letter-spacing: 2px;
     font-weight: normal;
+}
+
+.imageDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageDiv img{
+    width: 600px;
+    height: auto;
+}
+
+@media screen and (max-width:900px) {
+    .container h1{
+        font-size: 2.25rem;
+    }
+
+    .imageDiv img{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .imageDiv img {
+        width: 325px;
+    }
 }

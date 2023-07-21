@@ -1,0 +1,101 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px 10px 20px;
+    color: white;
+    background-color: #850953;
+    overflow-x: hidden;
+}
+
+.heading {
+    font-size: 2.75rem;
+    margin-bottom: 0px;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+.subtitle {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.carouselWrapper {
+    width: 100%;
+    max-width: 900px;
+    
+}
+
+
+.carouselItem {
+    display: flex;
+    font-weight: normal;
+    flex-direction: column;
+    padding: 15px;
+    background-color: white;
+    border: 2px solid #aca8a8;
+    border-radius: 40px;
+    text-align: center;
+    height: 350px;
+    margin:0 20px 0 20px;
+    cursor: pointer;  
+}
+
+.image {
+    width: 170px;
+    max-width: 300px;
+    height: auto;
+    border-radius: 0;
+    /* margin: 5px; */
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+/* .imageDiv{
+    border-radius: 0;
+} */
+
+.text {
+    padding-top: 5px;
+    font-size: 1rem;
+    margin: 4px 0 4px 0;
+    text-align: center;
+    color: #545454;
+}
+
+.subheading{
+    font-size: 20px;
+    line-height: 1.6;
+    color: #d2358a;
+    text-align: center;
+    margin: 4px 0 0 0 ;
+}
+
+.author{
+    text-align: center;
+    margin: 0 0 0 0 ;
+    color: #aca8a8;
+}
+
+.scrollToTopButton{
+    /* margin-top: 30px; */
+    width: 100%;
+    height: 3.25rem;
+    font-size: 1.2rem;
+    background-color: #ebb7d6;
+    border: none;
+    color: #545454;
+}
+
+.scrollToTopButton:hover{
+    /* background-color: #e2d9df; */
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px) {
+    .heading{
+        text-align: center;
+    }
+}

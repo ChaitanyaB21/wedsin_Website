@@ -3,25 +3,52 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-  }
-  
-  .heading {
+}
+
+.imageDiv{
+    /* width: 100vw; */
+    text-align: center;
+    margin-left: 0;
+}
+
+.blogContainer img
+{
+    width: 500px;
+    text-align: center;
+}
+
+.heading {
     font-size: 2rem;
     margin-bottom: 1rem;
-  }
-  
-  .metadata {
+}
+
+.metadata {
     margin-bottom: 1rem;
-  }
-  
-  .author,
-  .date {
+}
+
+.author,
+.date {
     font-size: 1rem;
     margin-bottom: 0.5rem;
-  }
-  
-  .body {
+}
+
+.body {
     font-size: 1rem;
     line-height: 1.5;
-  }
-  
+}
+
+@media screen and (max-width:700px) {
+    .blogContainer {
+        width: auto;
+        text-align: center;
+    }
+
+    .blogContainer img{
+        width: 100%;
+        text-align: center;
+    }
+
+    .heading{
+        font-size: 1.5rem;
+    }
+}

@@ -1,11 +1,24 @@
 .links {
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: #a41770;
+    background-color: #850953;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #850953;
+}
+
+.text p{
+    margin: 0;
+    padding: 0;
+    color: white;
 }
 
 .links a {

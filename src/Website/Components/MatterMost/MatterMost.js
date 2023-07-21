@@ -10,7 +10,7 @@ const MatterMost = () => {
                 <p className={styles.important} >
                     To help you re-establish that your needs are important</p>
                 <p className={styles.paragraph}>
-                    Gaining a deeper understanding of oneself helps to create healthier and happier relationships and we are here for you on this transformative journey.
+                    Gaining a deeper understanding of oneself helps to create healthier and <br/> happier relationships and we are here for you on this transformative journey.
                 </p>
                 <div className={styles.row}>
                     <div className={styles.item}>

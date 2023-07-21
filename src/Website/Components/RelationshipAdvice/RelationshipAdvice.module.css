@@ -77,7 +77,6 @@
 }
 
 .scrollToTopButton{
-    /* margin-top: 30px; */
     width: 100%;
     height: 3.25rem;
     font-size: 1.2rem;
@@ -87,7 +86,6 @@
 }
 
 .scrollToTopButton:hover{
-    /* background-color: #e2d9df; */
     cursor: pointer;
 }
 

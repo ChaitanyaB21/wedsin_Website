@@ -1,5 +1,5 @@
 .container {
-    height: 80vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,6 +7,7 @@
     background-color: white;
     color: #545454;
     padding-top: 20px;
+    overflow-x: hidden;
 }
 
 .heading {
@@ -22,6 +23,7 @@
     text-align: center;
     font-weight: 500;
     margin-top: 0;
+    font-weight: normal;
 }
 
 .row {
@@ -32,6 +34,7 @@
 }
 
 .item {
+    padding-top: 20px;
     flex: 1;
     display: flex;
     margin: 0 1rem;
@@ -68,9 +71,9 @@
 
 .important {
     font-size: 20px;
-
+    text-align: center;
     font-weight: normal;
-    margin-top: 0;
+    margin: 0;
     letter-spacing: 1px;
 }
 
@@ -116,6 +119,6 @@
     }
 
     .important{
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 }
