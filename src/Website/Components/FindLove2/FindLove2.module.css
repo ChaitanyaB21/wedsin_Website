@@ -27,7 +27,7 @@
 
 .container p {
     font-size: 20px;
-    line-height: 1.6;
+    padding: 0 20px 0 20;
 }
 
 .buttonStart {
@@ -51,7 +51,7 @@
 
 @media screen and (max-width:1000px) {
     .container h1{
-        font-size: 2.5rem;
+        font-size: 2.25rem;
     }
 }
 

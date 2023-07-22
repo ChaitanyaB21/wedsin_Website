@@ -18,7 +18,7 @@
 }
 
 .paragraph {
-    font-size: 1.1rem;
+    font-size: 20px;
     margin-top: 1rem;
     text-align: center;
     font-weight: 500;
@@ -34,7 +34,7 @@
 }
 
 .item {
-    padding-top: 20px;
+    padding-top: 10px;
     flex: 1;
     display: flex;
     margin: 0 1rem;
@@ -52,6 +52,14 @@
     color: #545454;
 }
 
+.subheadingtext{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 15px;
+    color: #545454;
+    text-align: left;
+}
+
 .number {
     color: #545454;
     font-size: 2.5rem;
@@ -65,6 +73,7 @@
     color: #545454;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 10px;
     font-weight: 600;
     font-weight: normal;
 }
@@ -94,12 +103,12 @@
 
 @media screen and (max-width:700px) {
     .heading{
-        font-size: 2rem;
+        font-size: 2.25rem;
     }
 
-    .paragraph{
+    /* .paragraph{
         font-size: 1rem;
-    }
+    } */
 }
 
 @media screen and (max-width:500px) {

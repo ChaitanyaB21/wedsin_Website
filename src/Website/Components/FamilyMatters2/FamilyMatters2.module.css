@@ -29,7 +29,7 @@
 }
 
 .subtitle {
-    font-size: 1.25rem;
+    font-size: 20px;
     margin-bottom: 20px;
     letter-spacing: 1px;
     font-weight: normal;
@@ -83,13 +83,13 @@
     }
 
     .heading {
-        font-size: 2rem;
+        font-size: 2.25rem;
     }
 
-    .subtitle {
+    /* .subtitle {
         font-size: 1.2rem;
 
-    }
+    } */
 }
 
 @media screen and (max-width:800px) {

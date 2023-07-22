@@ -15,8 +15,6 @@ const Singles1 = () => {
             <p className={styles.text} >A strong connection exists between the profession we choose and the personal life we build. WedsIn will help you to find the balance.  </p>
             <div className={styles.allImages} >
                 <img src={image1} alt="Quality Singles" className={styles.image} />
-                {/* <img src={image2} alt="Quality Singles" className={styles.image} />
-                <img src={image3} alt="Quality Singles" className={styles.image3} /> */}
             </div>
             <Carousel image1={singles1} image2={singles2} image3={singles3} />
             <button>Join Now</button>

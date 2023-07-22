@@ -16,7 +16,7 @@
 }
 
 .subtitle {
-    font-size: 1rem;
+    font-size: 20px;
     margin-bottom: 20px;
     font-weight: normal;
     text-align: center;
@@ -48,14 +48,10 @@
     max-width: 300px;
     height: auto;
     border-radius: 0;
-    /* margin: 5px; */
     margin-top: 20px;
     margin-bottom: 5px;
 }
 
-/* .imageDiv{
-    border-radius: 0;
-} */
 
 .text {
     padding-top: 5px;

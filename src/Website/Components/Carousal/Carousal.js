@@ -63,7 +63,6 @@ const Carousel = (props) => {
                         items: 1,
                     },
                 }}
-                showDots
                 sliderClass=""
                 slidesToSlide={1}
                 swipeable
