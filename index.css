@@ -2,27 +2,22 @@
     font-family: 'gilroyextrabold';
     src: url('Fonts/gilroy-extrabold-webfont.woff2') format('woff2'),
          url('Fonts/gilroy-extrabold-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'gilroylight';
     src: url('Fonts/gilroy-light-webfont.woff2') format('woff2'),
          url('Fonts/gilroy-light-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: lighter;
     font-style: normal;
-
 }
 
-body{
+body {
     padding: 0;
     margin: 0;
     background-color: white;
-    font-family: 'Gilroy-Light';
+    font-family: 'gilroylight', sans-serif; 
     overflow-y: auto;
 }
