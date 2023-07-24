@@ -1,0 +1,46 @@
+/* WedsInApp.module.css */
+
+.heading {
+
+    margin: 4.5rem;
+    color: #545454;
+}
+
+.container {
+    color: #545454;
+    border: 1px solid pink;
+    cursor: pointer;
+    padding: 30px;
+}
+
+.expandedContent {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.buttonStart {
+    background-color: #a41770;
+    color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    letter-spacing: 4px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.buttonStart:hover {
+    background-color: #6f0f4b;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+}

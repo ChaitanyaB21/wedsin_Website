@@ -35,12 +35,12 @@ const WeddingBlogs = () => {
 
     const navigate = useNavigate();
 
-    const handleScrollToTop = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth',
-        });
-    };
+    // const handleScrollToTop = () => {
+    //     window.scrollTo({
+    //         top: 0,
+    //         behavior: 'smooth',
+    //     });
+    // };
 
     const renderCarouselItem = (item) => (
         <div
@@ -102,9 +102,9 @@ const WeddingBlogs = () => {
                     </Carousel>
                 </div>
             </div>
-            <button className={styles.scrollToTopButton} onClick={handleScrollToTop}>
+            {/* <button className={styles.scrollToTopButton} onClick={handleScrollToTop}>
                 Back to Top
-            </button>
+            </button> */}
         </React.Fragment>
     );
 };

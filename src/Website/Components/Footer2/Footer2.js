@@ -19,7 +19,7 @@ const Footer2 = () => {
                     <Link to='/faq' className={styles.footerLink}>F.A.Q. |</Link>
                 </li>
                 <li>
-                    <a href="#" className={styles.footerLink}>Jobs |</a>
+                    <Link to='/Jobs' className={styles.footerLink}>Jobs |</Link>
                 </li>
                 <li>
                     <a href="https://www.wedsin.com/privacy" className={styles.footerLink}>Privacy Policy |</a>

@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Compatibility3.module.css';
 import image from '../../Assets/Compatibility4.jpg';
+import { Link } from 'react-router-dom';
 
 const Compatibility3 = () => {
     return (
@@ -17,7 +18,7 @@ const Compatibility3 = () => {
                 </div>
                 <div className={styles.text} >
                     <h2 className={styles.subtitle}>We provide a snapshot view of your astrological and modern compatibility analysis with your matches.</h2>
-                    <button className={styles.buttonStart}>Start Now</button>
+                    <Link to='/Contact' ><button className={styles.buttonStart}>Start Now</button></Link> 
                 </div>
 
 

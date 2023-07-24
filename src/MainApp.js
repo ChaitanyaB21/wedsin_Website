@@ -6,6 +6,7 @@ import WedsinIndividualBlog from "./Pressroom/Components/WedsinIndividualBlog/We
 import ContactUs from "./ContactUs/ContactUs.js";
 import AboutUs from "./AboutUs/AboutUs.js";
 import Faq from "./Faq/Faq.js";
+import Jobs from "./Jobs/Jobs.js";
 
 const router = createBrowserRouter([
     {path:'wedsin_Website/' , element:<App/>},
@@ -13,7 +14,8 @@ const router = createBrowserRouter([
     {path:'/Blogs/:individualBlogId' , element:<WedsinIndividualBlog/>},
     {path:'/Contact' , element:<ContactUs/>},
     {path:'/About' , element:<AboutUs/>},
-    {path:'/faq' , element:<Faq/>}
+    {path:'/faq' , element:<Faq/>},
+    {path:'/Jobs' , element:<Jobs/>}
 ])
 
 const MainApp = () => {

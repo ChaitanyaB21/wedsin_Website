@@ -1,5 +1,5 @@
 import React from 'react';
-// import { Link, useNavigate } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import styles from './Privacy3.module.css';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -49,7 +49,7 @@ const Privacy3 = () => {
             <div className={styles.container}>
                 <div className={styles.textDiv} >
                     <h2 className={styles.subtitle}>We prioritize your security and verify potential matches with utmost care as if we were checking for our family.</h2>
-                    <button className={styles.buttonStart}>Start Now</button>
+                    <Link to='/Contact' ><button className={styles.buttonStart}>Start Now</button></Link>
                 </div>
                 <div className={styles.carouselWrapper}>
                     <Carousel

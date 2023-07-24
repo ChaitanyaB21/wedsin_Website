@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './FindLove2.module.css';
 import image from '../../Assets/FindLoveImg2.png';
+import { Link } from 'react-router-dom';
 
 const FindLove2 = () => {
     return (
@@ -11,7 +12,7 @@ const FindLove2 = () => {
 
                 Join our inclusive wedding platform, embracing all castes and communities with open arms. Find love and celebrate your special day!
             </p>
-            <button className={styles.buttonStart}>Join Now</button>
+            <Link to='/Contact' ><button className={styles.buttonStart}>Join Now</button></Link> 
         </div>
     );
 };

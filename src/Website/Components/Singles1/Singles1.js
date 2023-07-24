@@ -7,6 +7,7 @@ import singles1 from '../../Assets/singles1.png'
 import singles2 from '../../Assets/singles2.png'
 import singles3 from '../../Assets/singles3.png'
 import Carousel from "../Carousal/Carousal";
+import { Link } from "react-router-dom";
 
 const Singles1 = () => {
     return (
@@ -17,7 +18,7 @@ const Singles1 = () => {
                 <img src={image1} alt="Quality Singles" className={styles.image} />
             </div>
             <Carousel image1={singles1} image2={singles2} image3={singles3} />
-            <button>Join Now</button>
+            <Link to='/Contact' ><button>Join Now</button></Link> 
         </div>
     );
 }
