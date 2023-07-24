@@ -25,7 +25,9 @@ const Navbar2 = () => {
                     <i className={`bi bi-list ${showMenu ? styles.showModal : ''}`}></i>
                 </button>
                 <div className={`${showMenu ? styles.navbarCollapseShow : styles.navbarCollapse}`} id="navbarNav">
+
                     <ul className={styles.navbarNav}>
+                        <button className={styles.crossBtn} onClick={toggleMenu} ><i class="bi bi-x"></i></button>
                         <Link to='/About' className={styles.navLink} >
                             <li className={styles.navItem}>
 

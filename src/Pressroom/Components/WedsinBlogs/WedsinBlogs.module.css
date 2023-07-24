@@ -4,78 +4,78 @@
     justify-content: center;
     align-items: center;
     overflow-x: hidden;
-  }
-  
-  .backgroundImage {
+}
+
+.backgroundImage {
     width: 80%;
-  }
-  
-  .text {
+}
+
+.text {
     position: absolute;
     top: 40px;
     left: 10rem;
     color: black;
-  
+
     /* add any additional styles for your text */
-  }
-  
-  .text h1 {
+}
+
+.text h1 {
     font-size: 2.25rem;
     letter-spacing: 1px;
     color: #850953;
     font-weight: normal;
     text-align: left;
-  }
-  
-  .text p {
+}
+
+.text p {
     font-size: 1.25rem;
     color: #545454;
-  }
-  
-  .text h2 {
+}
+
+.text h2 {
     font-size: 1.55rem;
     color: #850953;
     font-weight: normal;
-  }
-  
-  @media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 1200px) {
     .text h1 {
-      font-size: 2rem;
+        font-size: 2rem;
     }
-  
+
     .text p {
-      font-size: 1rem;
+        font-size: 1rem;
     }
-  
+
     .text h2 {
-      font-size: 1.3rem;
+        font-size: 1.3rem;
     }
-  }
-  
-  @media screen and (max-width: 1000px) {
+}
+
+@media screen and (max-width: 1000px) {
     .backgroundImage {
         width: 1200px;
     }
+
     .text {
-      /* position: static; */
-      /* text-align: center; */
-      margin-top: 20px;
-      left: 2rem;
-      margin-left: 0;
+        /* position: static; */
+        /* text-align: center; */
+        margin-top: 20px;
+        left: 2rem;
+        margin-left: 0;
     }
-  }
-  
-  @media screen and (max-width: 450px) {
-    
+}
+
+@media screen and (max-width: 450px) {
+
     .backgroundImage {
         width: 600px;
     }
 
     .text {
-        
-        left: 0;
-        
-      }
-    
-  }
-  
+
+        left: 2px;
+
+    }
+
+}

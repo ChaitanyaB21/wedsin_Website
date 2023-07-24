@@ -41,4 +41,8 @@
     .footerText {
         font-size: small;
     }
+
+    .footerLinks{
+        line-height: 25px;
+    }
 }

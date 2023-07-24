@@ -1,169 +1,204 @@
-/* navbar2.module.css */
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+    /* navbar2.module.css */
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
-.navbar {
-    width: 100vw;
-    background-color: #fff;
-    overflow: hidden;
-    margin-right: 10px;
-    display: flex;
-    flex-direction: row;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 5;
-    justify-content: space-between;
-    overflow-x: hidden;
-}
+    .navbar {
+        width: 100vw;
+        background-color: #fff;
+        overflow: hidden;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 5;
+        justify-content: space-between;
+        overflow-x: hidden;
+    }
 
-.logoImg a {
-    background-color: none;
-}
+    .logoImg a {
+        background-color: none;
+    }
 
+    /* Add keyframes for the animation */
+    @keyframes slideIn {
+        from {
+            transform: translateX(100%);
+        }
 
+        to {
+            transform: translateX(0);
+        }
+    }
 
-.navbar Link{
-    color: white;
-}
+    /* @keyframes slideOut {
+        from {
+            transform: translateX(0);
+        }
 
-.navbar a {
-    float: right;
-    padding: 2px 8px;
-    color: #333;
-    text-align: center;
-    text-decoration: none;
-    font-size: 17px;
-    margin: 5px;
-    transition: 0.25s ease;
-}
+        to {
+            transform: translateX(-100%);
+        }
+    } */
 
-.navbarNav {
-    display: flex;
-    list-style-type: none;
-}
+    .navbar Link {
+        color: white;
+    }
 
-.containerFluid a:hover {
-    background-color: #850953;
-    color: white;
-}
-
-
-.navbar a {
-    border-radius: 20px;
-}
-
-.navbarBrand {
-    padding: 0;
-    margin: 0;
-}
-
-.navbar img {
-    margin-top: 10px;
-    width: auto;
-    height: 45px;
-}
-
-.containerFluid {
-    right: 0;
-}
-
-.navbarNav {
-    margin-top: 5px;
-    margin-left: auto;
-}
-
-.navbarToggler {
-    display: none;
-    /* Hide the hamburger menu button by default for larger screens */
-}
-
-.navbarCollapse {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 15px;
-}
-
-.navbarCollapseShow {
-    display: flex;
-    /* For smaller screens, show the menu when the hamburger button is clicked */
-    flex-direction: column;
-}
-
-.navLink {
-    padding: 15px 0;
-}
-
-.navbarBrand:hover {
-    background-color: white;
-}
-
-.navbarCollapseShow {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 10;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-/* Styling for the modal content */
-.navbarCollapseShow .navbarNav {
-    background-color: #fff;
-    width: 40vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px;
-}
-
-/* Styling for the individual nav items in the modal */
-.navbarCollapseShow .navItem {
-    margin: 10px 0;
-}
-
-/* Hide the modal content by default */
-/* .navbarNav {
-    display: none;
-} */
-
-/* Show the modal content when the showMenu state is true */
-.showModal .navbarNav {
-    display: block;
-}
-
-
-
-@media screen and (max-width: 600px) {
     .navbar a {
-        font-size: 1rem;
+        float: right;
+        padding: 2px 8px;
+        color: #333;
+        text-align: center;
+        text-decoration: none;
+        font-size: 17px;
+        margin: 5px;
+        transition: 0.25s ease;
     }
 
-    .navbarBrand img {
-        position: relative;
-        left: -50px;
+    .navbarNav {
+        display: flex;
+        list-style-type: none;
     }
 
-    .navbarCollapse {
-        display: none;
-        /* Hide the menu by default for smaller screens */
+    .containerFluid a:hover {
+        background-color: #850953;
+        color: white;
+    }
+
+
+    .navbar a {
+        border-radius: 20px;
+    }
+
+    .navbarBrand {
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar img {
+        margin-top: 10px;
+        width: auto;
+        height: 45px;
+    }
+
+    .containerFluid {
+        right: 0;
+    }
+
+    .navbarNav {
+        margin-top: 5px;
+        margin-left: auto;
     }
 
     .navbarToggler {
-        display: block;
-        /* Show the hamburger menu button for smaller screens */
-        position: absolute;
-        top: 15px;
-        right: 20px;
-        padding: 10px;
-        background: transparent;
-        border: none;
-        cursor: pointer;
-        z-index: 10;
+        display: none;
+        /* Hide the hamburger menu button by default for larger screens */
     }
-}
+
+    .navbarCollapse {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15px;
+        transition: 1s ease;
+    }
+
+    .navbarCollapseShow {
+        display: flex;
+        /* For smaller screens, show the menu when the hamburger button is clicked */
+        flex-direction: column;
+    }
+
+    .navLink {
+        padding: 15px 0;
+    }
+
+    .navbarBrand:hover {
+        background-color: white;
+    }
+
+    .navbarCollapseShow {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 10;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /* Styling for the modal content */
+    .navbarCollapseShow .navbarNav {
+        background-color: #fff;
+        width: 40vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+        animation: slideIn 0.3s ease;
+    }
+
+    /* Styling for the individual nav items in the modal */
+    .navbarCollapseShow .navItem {
+        margin: 10px 0;
+    }
+
+    /* Hide the modal content by default */
+    /* .navbarNav {
+        display: none;
+    } */
+
+    /* Show the modal content when the showMenu state is true */
+    .showModal .navbarNav {
+        display: block;
+        animation: slideIn 0.3s ease;
+    }
+    
+
+    .crossBtn {
+        display: none;
+        border: none;
+        background-color: transparent;
+    }
+
+
+
+    @media screen and (max-width: 600px) {
+        .navbar a {
+            font-size: 1rem;
+        }
+
+        .navbarBrand img {
+            position: relative;
+            left: -50px;
+        }
+
+        .navbarCollapse {
+            display: none;
+            /* Hide the menu by default for smaller screens */
+        }
+
+        .navbarToggler {
+            display: block;
+            /* Show the hamburger menu button for smaller screens */
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            padding: 10px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            z-index: 10;
+        }
+
+        .crossBtn {
+            display: flex;
+        }
+    }

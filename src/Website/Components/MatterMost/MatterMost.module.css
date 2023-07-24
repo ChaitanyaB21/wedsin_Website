@@ -96,6 +96,14 @@
         height: auto;
     }
 
+    .important{
+        margin:0 3px 0 3px;
+    }
+
+    .paragraph{
+        margin:0 3px 0 3px;
+    }
+
     .item {
         margin: 1rem 0;
     }

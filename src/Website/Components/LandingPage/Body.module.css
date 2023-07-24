@@ -62,12 +62,12 @@
 
     .container h1{
         font-size: 2.25rem;
-        margin: 2px;
+        margin: 0 2px 0 2px;
     }
 
     .container p{
 
-        margin: 2px;
+        margin:0 2px 0 2px;
     }
 
     .mainImage{

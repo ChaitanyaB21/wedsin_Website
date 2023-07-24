@@ -61,4 +61,13 @@
     .blogImage {
         width: 100%;
     }
+
+    .blogContainer{
+        padding: 0px;
+ 
+    }
+
+    .blogItem{
+        margin: 0;
+    }
 }
