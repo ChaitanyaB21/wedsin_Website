@@ -99,42 +99,42 @@ const blogData = [
         `,
         Text: `
         <p>
-      <h1>1. The Illusion of External Fulfillment</h1>
+      <h2>1. The Illusion of External Fulfillment</h2>
       <br />
       Seeking love solely in external sources can lead to a constant state of longing and disappointment. When we place our happiness and fulfillment entirely in the hands of others, we become vulnerable to emotional highs and lows. The truth is, true happiness and contentment come from within, and relying solely on external love can be an endless and unfulfilling pursuit.
     </p>
     <p>
-      2. Understanding Self-Love
+      <h2>2. Understanding Self-Love</h2>
       <br />
       Self-love is not selfish or egocentric; it is the foundation of a healthy and fulfilling life. It involves accepting and valuing oneself, recognizing our worth, and taking care of our emotional, mental, and physical well-being. When we cultivate self-love, we create a strong sense of inner security and resilience, which allows us to form healthier relationships with others.
     </p>
     <p>
-      3. Embracing Solitude and Independence
+      <h2>3. Embracing Solitude and Independence</h2>
       <br />
       Taking time to be alone and embracing solitude can be empowering and transformative. It offers an opportunity for introspection, self-discovery, and personal growth. When we learn to enjoy our own company and become comfortable with being independent, we become less reliant on external sources for validation and fulfillment.
     </p>
     <p>
-      4. Pursuing Personal Passions
+      <h2>4. Pursuing Personal Passions</h2>
       <br />
       One of the most fulfilling ways to stop seeking love outside is by pursuing our passions and interests. Engaging in activities that bring us joy and fulfillment not only boosts our self-confidence but also introduces us to like-minded individuals who share our passions, potentially leading to genuine connections.
     </p>
     <p>
-      5. The Dangers of Settling
+      <h2>5. The Dangers of Settling</h2>
       <br />
       The desperation to find love outside oneself can lead to settling for less than we deserve. Settling in a relationship that doesn't align with our values or brings us unhappiness can be damaging to our emotional well-being and prevent us from experiencing a truly fulfilling connection in the future.
     </p>
     <p>
-      6. Cultivating Meaningful Connections
+      <h2>6. Cultivating Meaningful Connections</h2>
       <br />
       Instead of focusing solely on romantic relationships, invest time and energy in building meaningful connections with friends, family, and community. Genuine connections can be a source of support, love, and joy, enhancing our overall well-being and providing a sense of belonging.
     </p>
     <p>
-      7. Embracing the Journey
+      <h2>7. Embracing the Journey</h2>
       <br />
       Finding love within ourselves does not mean we should close ourselves off to potential romantic relationships. Embracing the journey means allowing love to unfold naturally, without forcing or rushing it. When we prioritize self-love and inner growth, we become more discerning in choosing partners who genuinely complement our lives.
     </p>
     <p>
-      <strong>Conclusion</strong>
+      <h2>Conclusion</h2>
       <br />
       While the desire to find love is a natural and beautiful aspect of being human, it should not be the sole purpose of our existence. Embrace the idea that true love starts within, and the journey to finding meaningful connections should be accompanied by self-love, independence, and personal growth. Instead of wasting your life trying to find love outside, invest in yourself and your passions, build meaningful connections, and allow love to unfold naturally. Remember that when you love and value yourself, you attract the right people who will enhance your life and share in your journey of self-discovery and love.
     </p>`,
@@ -150,47 +150,47 @@ const blogData = [
         `,
         Text: `
         <p>
-      1. Set Clear Boundaries
+      <h2>1. Set Clear Boundaries</h2>
       <br />
       Establishing clear boundaries between your professional and personal life is essential. When you're at work, focus on your tasks and commitments, and when you're off the clock, ensure you dedicate quality time to your personal life. Avoid bringing work-related stress and concerns home, and vice versa. Setting boundaries will help you mentally switch between the two aspects of your life, reducing burnout and enhancing productivity.
     </p>
     <p>
-      2. Prioritize and Organize
+      <h2>2. Prioritize and Organize</h2>
       <br />
       To manage your professional and personal life efficiently, prioritize your tasks and organize your schedule. Create a to-do list for work and another for personal activities. Identify the most critical tasks and allocate time accordingly. By planning your days effectively, you'll be better prepared to fulfill your commitments in both areas without feeling overwhelmed.
     </p>
     <p>
-      3. Learn to Say No
+      <h2>3. Learn to Say No</h2>
       <br />
       Saying no, politely but firmly, is an essential skill in achieving a balanced life. Sometimes, we feel pressured to take on additional work or social commitments, even when it overwhelms us. Learn to assess your capacity realistically and decline any new obligations that may negatively impact your balance. Saying no when necessary is an act of self-care, allowing you to focus on what truly matters to you.
     </p>
     <p>
-      4. Delegate and Seek Support
+      <h2>4. Delegate and Seek Support</h2>
       <br />
       In your professional life, delegate tasks whenever possible to lighten your workload and empower your team members. At home, involve family members or seek help from friends or professional services to share household responsibilities. Remember that you don't have to do everything alone, and seeking support is a sign of strength, not weakness.
     </p>
     <p>
-      5. Create Quality Family Time
+      <h2>5. Create Quality Family Time</h2>
       <br />
       Amid busy work schedules, it's crucial to set aside quality time for your family and loved ones. Plan regular outings, dinners, or activities that promote bonding and strengthen your relationships. Engaging in meaningful conversations and shared experiences will nurture the emotional connection with your loved ones, even amidst a hectic work life.
     </p>
     <p>
-      6. Practice Self-Care
+      <h2>6. Practice Self-Care</h2>
       <br />
       Taking care of yourself is essential for maintaining a healthy balance. Make time for self-care activities, such as exercise, meditation, hobbies, or spending time with friends. Prioritize your physical and mental well-being, as a healthy and refreshed mind will improve your efficiency in both personal and professional spheres.
     </p>
     <p>
-      7. Limit Screen Time
+      <h2>7. Limit Screen Time</h2>
       <br />
       Excessive screen time, especially related to work, can intrude on personal life and lead to burnout. Set boundaries on checking work emails or messages during personal time. Similarly, limit personal screen time during work hours to stay focused and maintain productivity.
     </p>
     <p>
-      8. Be Present in the Moment
+      <h2>8. Be Present in the Moment</h2>
       <br />
       Whether at work or during personal moments, practice mindfulness and be fully present in the moment. Avoid multitasking as it can reduce efficiency and prevent you from enjoying meaningful experiences. Mindful engagement allows you to make the most of each situation and fosters a better work-life balance.
     </p>
     <p>
-      <strong>Conclusion</strong>
+      <h2>Conclusion</h2>
       <br />
       Achieving a balance between your professional and personal life is an ongoing process that requires self-awareness and intentional effort. By setting clear boundaries, prioritizing tasks, learning to say no, and seeking support when needed, you can manage both aspects of your life effectively. Cultivate quality family time, practice self-care, and limit screen time to maintain a healthy work-life balance. Embrace mindfulness and being present in the moment to appreciate the beauty and joy in every aspect of your life, ultimately leading to greater fulfillment and happiness.
     </p>`,
@@ -206,47 +206,47 @@ const blogData = [
 `,
         Text: `
         <p>
-        1. Protect Your Personal Information
+        <h2>1. Protect Your Personal Information</h2>
         <br />
         One of the most critical aspects of online dating is safeguarding your personal information. Avoid sharing sensitive details such as your home address, phone number, or financial information with someone you've just met online. Take the time to get to know the person better and build trust before divulging personal data. Additionally, be cautious of sharing intimate photos or videos, as they can be used maliciously.
       </p>
       <p>
-        2. Be Skeptical of Suspicious Profiles
+        <h2>2. Be Skeptical of Suspicious Profiles</h2>
         <br />
         When using online dating platforms, be wary of suspicious profiles. Scammers and catfishers often create fake accounts to deceive unsuspecting individuals. If a profile seems too good to be true or lacks authentic information, it's best to proceed with caution or report it to the platform administrators.
       </p>
       <p>
-        3. Verify Identities When Possible
+        <h2>3. Verify Identities When Possible</h2>
         <br />
         To ensure you're interacting with genuine individuals, try to verify their identities through video calls or other means. This helps confirm that the person you are talking to matches the profile information and reduces the risk of falling victim to scams or deceit.
       </p>
       <p>
-        4. Avoid Sending Money or Financial Assistance
+        <h2>4. Avoid Sending Money or Financial Assistance</h2>
         <br />
         Never send money or provide financial assistance to someone you've met online, especially if they ask for it early in the relationship. Requests for money can be a red flag for potential scams, and it's best to prioritize your financial security.
       </p>
       <p>
-        5. Take Your Time Getting to Know Each Other
+        <h2>5. Take Your Time Getting to Know Each Other</h2>
         <br />
         Rushing into a relationship without truly knowing the other person can be risky. Take your time getting to know each other, asking meaningful questions, and discussing important values and interests. Building a strong foundation of trust and understanding is crucial in any relationship.
       </p>
       <p>
-        6. Meet in Public and Inform a Friend
+        <h2>6. Meet in Public and Inform a Friend</h2>
         <br />
         When you decide to meet someone from an online dating platform in person, choose a public place for the first meeting. Inform a friend or family member about your plans and share the location and time of the meeting. Having someone aware of your whereabouts provides an extra layer of safety.
       </p>
       <p>
-        7. Trust Your Instincts
+        <h2>7. Trust Your Instincts</h2>
         <br />
         Trust your instincts and gut feelings. If something doesn't feel right or you sense red flags in your interactions, don't ignore those feelings. Your intuition is a powerful tool, and it's essential to prioritize your safety and well-being.
       </p>
       <p>
-        8. Use Reputable Dating Platforms
+        <h2>8. Use Reputable Dating Platforms</h2>
         <br />
         Choose reputable and well-established dating platforms that prioritize user safety and implement robust security measures. Read reviews and do some research before creating a profile on any platform.
       </p>
       <p>
-        <strong>Conclusion</strong>
+        <h2>Conclusion</h2>
         <br />
         Online dating can be a rewarding experience if approached with caution and mindfulness. Protecting your personal information, being skeptical of suspicious profiles, and verifying identities are vital steps to ensure a safer online dating journey. Take your time getting to know each other, avoid sharing financial information, and trust your instincts when something doesn't feel right. By prioritizing safety and following these guidelines, you can enjoy the potential of online dating and increase your chances of forming genuine connections with like-minded individuals.
       </p>`,

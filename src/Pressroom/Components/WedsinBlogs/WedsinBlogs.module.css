@@ -12,9 +12,8 @@
 
 .text {
     position: absolute;
-    top: 40px;
-    left: 10rem;
-    color: black;
+    top: 50px;
+    left: 11%;
 
     /* add any additional styles for your text */
 }
@@ -74,7 +73,7 @@
 
     .text {
 
-        left: 2px;
+        left: 0.5rem;
 
     }
 

@@ -1,5 +1,5 @@
 .container{
-    padding-left: 80px;
+    /* padding-left: 80px; */
     padding-top: 15%;
     height: 60vh;
 }
@@ -29,6 +29,6 @@
     }
 
     .container{
-        padding-left: 20px;
+        padding: 20px;
     }
 }

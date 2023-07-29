@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import styles from './Privacy3.module.css';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -46,51 +46,53 @@ const Privacy3 = () => {
             <div className={styles.text} >
                 <h1 className={styles.heading}>Your privacy and safety matters!</h1>
             </div>
-            <div className={styles.container}>
-                <div className={styles.textDiv} >
-                    <h2 className={styles.subtitle}>We prioritize your security and verify potential matches with utmost care as if we were checking for our family.</h2>
-                    <Link to='/Contact' ><button className={styles.buttonStart}>Start Now</button></Link>
-                </div>
-                <div className={styles.carouselWrapper}>
-                    <Carousel
-                        additionalTransfrom={0}
-                        autoPlay
-                        autoPlaySpeed={3000}
-                        centerMode={false}
-                        className={styles.carousel}
-                        containerClass=""
-                        dotListClass=""
-                        customLeftArrow={<span />}
-                        customRightArrow={<span />}
-                        draggable
-                        focusOnSelect={false}
-                        infinite
-                        itemClass=""
-                        keyBoardControl
-                        minimumTouchDrag={80}
-                        renderButtonGroupOutside
-                        renderDotsOutside={false}
-                        responsive={{
-                            desktop: {
-                                breakpoint: { max: 3000, min: 1024 },
-                                items: 1,
-                            },
-                            tablet: {
-                                breakpoint: { max: 1024, min: 464 },
-                                items: 1,
-                            },
-                            mobile: {
-                                breakpoint: { max: 464, min: 0 },
-                                items: 1,
-                            },
-                        }}
-                        showDots={true}
-                        sliderClass=""
-                        slidesToSlide={1}
-                        swipeable
-                    >
-                        {carouselItems.map(renderCarouselItem)}
-                    </Carousel>
+            <div className={styles.main} >
+                <div className={styles.container}>
+                    <div className={styles.text} >
+                        <h2 className={styles.subtitle}>We prioritize your security and verify potential matches with utmost care as if we were checking for our family.</h2>
+                        <Link to='/Contact' ><button className={styles.buttonStart}>Start Now</button></Link>
+                    </div>
+                    <div className={styles.carouselWrapper}>
+                        <Carousel
+                            additionalTransfrom={0}
+                            autoPlay
+                            autoPlaySpeed={3000}
+                            centerMode={false}
+                            className={styles.carousel}
+                            containerClass=""
+                            dotListClass=""
+                            customLeftArrow={<span />}
+                            customRightArrow={<span />}
+                            draggable
+                            focusOnSelect={false}
+                            infinite
+                            itemClass=""
+                            keyBoardControl
+                            minimumTouchDrag={80}
+                            renderButtonGroupOutside
+                            renderDotsOutside={false}
+                            responsive={{
+                                desktop: {
+                                    breakpoint: { max: 3000, min: 1024 },
+                                    items: 1,
+                                },
+                                tablet: {
+                                    breakpoint: { max: 1024, min: 464 },
+                                    items: 1,
+                                },
+                                mobile: {
+                                    breakpoint: { max: 464, min: 0 },
+                                    items: 1,
+                                },
+                            }}
+                            showDots={true}
+                            sliderClass=""
+                            slidesToSlide={1}
+                            swipeable
+                        >
+                            {carouselItems.map(renderCarouselItem)}
+                        </Carousel>
+                    </div>
                 </div>
             </div>
         </React.Fragment>

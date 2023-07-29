@@ -61,8 +61,7 @@
     }
 
     .container h1{
-        font-size: 2.25rem;
-        margin: 0 2px 0 2px;
+        margin: 2px;
     }
 
     .container p{
@@ -88,6 +87,10 @@
         height: auto;
     }
 
+    .container h1{
+        font-size: 2.25rem;
+    }
+
     .mainImage{
         
         display: none;
@@ -105,12 +108,13 @@
 
 }
 
-@media screen and (max-width:464px) {
+
+@media screen and (max-width:500px) {
     .container p{
         margin: 10px 0 10px 0;
     } 
 
     .container p{
-        padding: 15px;
+        padding: 20px;
     }
 }

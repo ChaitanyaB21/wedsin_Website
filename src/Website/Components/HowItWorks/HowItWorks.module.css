@@ -7,7 +7,7 @@
     align-items: center;
     padding: 15px 40px 0 40px;
     overflow-x: hidden;
-    
+
 }
 
 .left {
@@ -16,7 +16,7 @@
     /* padding-left: 20px; */
 }
 
-.left h1{
+.left h1 {
     font-size: 2.75rem;
     letter-spacing: 2px;
     font-weight: normal;
@@ -42,7 +42,7 @@
 }
 
 .heading {
-    font-size: 2.5rem;
+    font-size: 2.75rem;
     margin-bottom: 20px;
     color: #545454;
 }
@@ -64,62 +64,63 @@
     margin-bottom: 20px;
 }
 
-.smallParagraph{
+.smallParagraph {
     text-align: center;
     padding: 0;
-  
+
 }
 
-.smallParagraph h3{
+.smallParagraph h3 {
     margin: 0;
     font-size: 1rem;
 }
 
-.smallParagraph h1{
+.smallParagraph h1 {
     font-family: 'Oleo Script', cursive;
     margin: 0;
     font-size: 1.5rem;
 }
 
-.smallParagraph h1 span{
+.smallParagraph h1 span {
     color: #a41770;
     margin: 0;
 }
 
-.smallParagraph p{
+.smallParagraph p {
     margin: 0;
-    /* font-size: 1.1rem; */
 }
 
 
-@media screen and (max-width: 1000px) {
-    
-    .container{
+@media screen and (max-width: 900px) {
+
+    .container {
         /* flex-direction: row; */
         height: auto;
     }
 
-    .mobileScreens{
-       
+    .mobileScreens {
+
         flex-direction: column;
         margin-top: 2.5rem;
-        
+
     }
 
-    .right{
-        
+    .right {
+
         display: none;
     }
 
-    .left{
+    .left {
         padding-bottom: 0;
         overflow-y: 0;
-        /* padding-left: 40%; */
     }
 
-    .smallParagraph p{
-        margin-bottom:  1rem;
-        /* font-size: 0.85rem; */
+    .smallParagraph p {
+        margin-bottom: 1rem;
     }
-    
+
+    .heading {
+        font-size: 2.25rem;
+    }
+
 }

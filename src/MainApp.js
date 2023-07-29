@@ -9,7 +9,7 @@ import Faq from "./Faq/Faq.js";
 import Jobs from "./Jobs/Jobs.js";
 
 const router = createBrowserRouter([
-    {path:'wedsin_Website/' , element:<App/>},
+    {path:'/wedsin_Website' , element:<App/>},
     {path:'/Blogs' , element:<PressroomApp/>},
     {path:'/Blogs/:individualBlogId' , element:<WedsinIndividualBlog/>},
     {path:'/Contact' , element:<ContactUs/>},
